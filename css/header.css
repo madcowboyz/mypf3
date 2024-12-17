@@ -1,0 +1,44 @@
+#header{
+
+}
+#header header{
+
+  display: flex;
+  margin-top: 25px;
+}
+
+#header header h2{
+}
+#header header nav{
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#header header nav .menu{
+
+    
+  display: flex;
+  width: 100%;
+}
+#header header nav .menu li{
+
+}
+#header header nav .menu li a{
+
+  padding: 0px 30px;
+}
+    
+#header header nav .language{
+
+}
+#header header nav .language ul{
+
+}
+#header header nav .language ul li{
+    
+}
+
+
+
