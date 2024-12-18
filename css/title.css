@@ -7,33 +7,86 @@
 #title .video li{
 
 }
-#title .t_list{
+#title .t_list {
 
   display: flex;
   justify-content: space-between;
+  padding: 50px 60px 100px 60px;
 }
-#title .t_list li{
+#title .t_list section.t1{
 
-  width: calc(100% / 3);
+
+  width: 404px;
 }
-#title .t_list  h2{
+#title .t_list section.t2{
+
+
+  width: 384px;
+}
+#title .t_list section.t3{
+
+
+  width: 292px;
+}
+#title .t_list .t1 h2{
 
   margin-bottom: 20px;
   font-size: inherit;
   font-weight: bold;
 }
+#title .t_list .t2 h2{
+
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: bold;
+  }
+  #title .t_list .t3 h2{
+
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: bold;
+  }
+  #title .t_list .t1 .tt1{
+
+  }
+  #title .t_list .t3 div{
+    
+  }
+  #title .t_list .t3 .dl1{
+    
+  }
+  #title .t_list .t3 .dl2{
+    
+  }
+  #title .t_list .t3 .dl3{
+    
+  }
+  #title .t_list .t3 dl dd{
+    
+  }
+  #title .t_list .t3 dl .d1{
+    
+  font-size: 35px;
+  font-weight: 900;
+  }
+  #title .t_list .t3 dl .d2{
+    
+  }
+  #title .t_list .t3 dl .d3{
+    
+ 
+  font-size: 20px;
+  }
+  
 #title .t_list a{
 
   display: flex;
   line-height: 2;
   font-size: 14px;
+  font-weight: 400;
+  color: #696971;
 }
-#title .t_list p{
 
-  display: flex;
-  line-height: 2;
-  font-size: 14px;
-}
 #title .t_list span{
 
 }
@@ -41,4 +94,5 @@
 
   margin-top: 20px;
   font-weight: 600;
+  color: black;
 }

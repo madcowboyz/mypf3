@@ -1,14 +1,23 @@
 #header{
 
+  position: absolute;
+  width: 100%;
 }
 #header header{
 
   display: flex;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
-#header header h1{
-}
+#header header h1 {
+  background-image:url(../img/logo.png);
+  background-size: cover;
+  width: 145px;
+  font-size: 0;
+  height: 40px;
+  background-position: center;
+ }
+
 #header header nav{
 
   display: flex;
@@ -27,7 +36,8 @@
 }
 #header header nav .menu li a{
 
-  padding: 0px 30px;
+  padding: 0px 40px;
+  color: white;
 }
     
 #header header nav .language{
@@ -38,6 +48,10 @@
 }
 #header header nav .language ul li{
     
+  display: none;
+}
+#header header nav .language ul span .ham{
+  
 }
 
 

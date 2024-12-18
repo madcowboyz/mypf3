@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="css/title.css">
     <title>nhn</title>
     <style>
-        *{margin: 0; padding: 0; list-style: none; text-decoration: none;line-height:1;}
+        *{margin: 0; padding: 0; list-style: none; text-decoration: none;line-height:1; font-family:Pretendard Variable;font-size: 16px;}
         .inner{
             width: 1200px;
             margin: 0 auto;
         }
-        a{  text-decoration:none;   color:#222;}
+        a{  text-decoration:none;   color:white;}
         video {width: 100%;  height: auto;}
+        .blind{ display: none;  }
+    
+    
+      
            
   
 
@@ -37,6 +41,7 @@
                 </ul>
                 <div class="language">
                     <ul>
+                        <span><a href=""><svg class="cursor-pointer" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.25" stroke="white" stroke-width="1.5"></circle><path d="M14.25 10C14.25 12.6702 13.7072 15.0506 12.8647 16.7357C11.9998 18.4656 10.9436 19.25 10 19.25C9.05641 19.25 8.00024 18.4656 7.13529 16.7357C6.29276 15.0506 5.75 12.6702 5.75 10C5.75 7.32976 6.29276 4.9494 7.13529 3.26434C8.00024 1.53443 9.05641 0.75 10 0.75C10.9436 0.75 11.9998 1.53443 12.8647 3.26434C13.7072 4.9494 14.25 7.32976 14.25 10Z" stroke="white" stroke-width="1.5"></path><rect x="1" y="6.16663" width="18" height="1.5" fill="white"></rect><rect x="1" y="12.3334" width="18" height="1.5" fill="white"></rect></svg></span></a>
                         <li><a href="">한국어</a></li>
                         <li><a href="">English</a></li>
                         <li><a href="">日本語</a></li>
@@ -48,45 +53,55 @@
 
     <section id="title">
         <ul class="video">
-            <!-- <li><video width="400" controls>
-                <source src="myPf3/video/mainBanner01.mp4" type="video/mp4">
-                <source src="mov_bbb.ogg" type="video/ogg">
-                Your browser does not support HTML5 video.
-              </video></li> -->
+            <li><video autoplay="" playsinline="" muted="" loop="" class="h-full w-full object-cover"><track kind="captions"><source src="https://static.nhnent.com/static/site/corp/videos/main/mainBanner03.mp4" type="video/mp4"></video></li>
             <li></li>
             <li></li>
         </ul>
 
-        <ul class="t_list inner">
-            <li>
+        <div class="t_list inner">
+            <section class="t1">
                 
                     <h2>보도자료</h2>
-                    <a href=>NHN 커머스, 하이트진로음료 ‘진로토닉 브랜드몰’ 구축 지원</a>
-                    <a href="">NHN, 문체부 주최 ‘2024 독서경영 우수 직장’ 신규 인증 획득</a>
-                    <a href="">NHN 커머스, 현대자동차 공식 온라인몰 '현대샵' 리뉴얼 지원</a>
-                    <a class="plus">더보기</a>
-            </li>
-            <li>
-               
+                  
+                <ul class="tt1">
+                    <li><a href=>NHN 커머스, 하이트진로음료 ‘진로토닉 브랜드몰’ 구축 지원</a></li>
+                    <li><a href="">NHN, 문체부 주최 ‘2024 독서경영 우수 직장’ 신규 인증 획득</a></li>
+                    <li><a href="">NHN 커머스, 현대자동차 공식 온라인몰 '현대샵' 리뉴얼 지원</a></li>
+                </ul>
+                <span class="blind">보도자료</span><a class="plus">더보기</a>
+                    
+                    
+                    
+            </section>
+
+            <section class="t2">
                     <h2>채용공고</h2>
-                    <a href="">PHP 및 Java 백엔드 개발</a>
-                    <a href="">웹디자이너 도쿄 현지 채용</a>
-                    <a href="">ERP 서비스 기획</a>
-                    <a href="" class="plus">더보기</a>
-                
-            </li>
-            <li>
-               
+                    <ul class="tt1">
+                        <li><a href="">PHP 및 Java 백엔드 개발</a></li>
+                        <li><a href="">웹디자이너 도쿄 현지 채용</a></li>
+                        <li><a href="">ERP 서비스 기획</a></li>
+                    </ul>
+                    <span class="blind">채용공고</span><li><a href="" class="plus">더보기</a></li>
+            </section>
+            <section class="t3">   
+
                     <h2>주가정보</h2>
-                    <p>19,000</p>
-                    <p>KRX 2024.12.17</p>
-                    <span>110</span>
-                    <a href="" class="plus">더보기</a>
-              
-                
-            </li>
-        </ul>
-    </section>
+                <div class="dl1">
+                    <dl>
+                        <dt class="blind">현재가</dt>
+                        <dd class="d1">19,000</dd>
+               </div>
+               <div class="dl2">   
+                        <dt class="blind">등락률</dt>
+                        <dd class="d2">50</dd>
+               </div>
+              <div class="dl3">
+                        <dt class="blind">날짜</dt>
+                        <dd class="d3">KRX 2024.12.17</dd>
+                    </dl>
+                </div>
+                    <span class="blind">주가정보</span><li><a href="" class="plus">더보기</a></li>
+            </section>
 
 </body>
 </html>
