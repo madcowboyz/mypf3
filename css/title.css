@@ -49,17 +49,23 @@
   #title .t_list .t1 .tt1{
 
   }
-  #title .t_list .t3 div{
+  #title .t_list .t3 dl{
     
+  display: flex;
+  flex-wrap: wrap;
   }
   #title .t_list .t3 .dl1{
     
+  width: 50%;
   }
   #title .t_list .t3 .dl2{
     
+  width: 50%;
+  display: flex;
   }
   #title .t_list .t3 .dl3{
     
+  width: 100%;
   }
   #title .t_list .t3 dl dd{
     
@@ -68,14 +74,24 @@
     
   font-size: 35px;
   font-weight: 900;
+  height: 40px;
   }
   #title .t_list .t3 dl .d2{
     
+  height: 40px;
+  font-size: 20px;
+  color: #d73b3b;
   }
+#title .t_list .t3 dl .d2:before{
+  content: "";
+}
   #title .t_list .t3 dl .d3{
     
  
-  font-size: 20px;
+  font-size: 15px;
+  padding-top: 5px;
+  height: 40px;
+  color: #696971;
   }
   
 #title .t_list a{
