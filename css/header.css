@@ -3,6 +3,10 @@
   position: relative;
   width: 100%;
   cursor: pointer;
+  color: #fff;
+}
+#header.on{
+  color: black;
 }
 #header:before{
   content: "";
@@ -12,15 +16,10 @@
   width: 100%;
   transition: all.3s;
 }
-#header .on::before{
-  height: 310px;
+#header.on::before{
+  height: 280px;
 }
 
-.on{
-  height: 310px;
-  color: black;
-  
-}
 
 #header header{
 
@@ -38,6 +37,10 @@
   height: 40px;
   width: 140px;
  }
+ .logo svg{
+  fill: white;
+ }
+ 
 
 #header header nav{
 
@@ -58,7 +61,6 @@
 #header header nav .menu li a{
 
   padding: 0px 40px;
-  color: inherit;
 }
 .sub{
 
@@ -67,29 +69,63 @@
   overflow: hidden;
   position: absolute;
 }
+#header.on .sub{
+  height: 230px;
+  top: 50px;
+}
 
 .sub li{
 
   line-height: 2;
 }
 .sub li a{
-  
   color: rgb(87, 87, 91);
+  font-size: 14px;
 }
     
+.earth{
+  align-items: center;
+  display: flex;
+}
+.earth:before{
+  content: "";
+  background: white;
+  height: 0;
+  transition:.3s;
+  position: absolute;
+  
+}
+.earth.on2:before{
+  height: 50px;
+}
+.earth .lang{
+  fill: none;
+}
+.lang .circle,.lang .line{
+  
+    stroke: white;
+}
+#header.on .lang .circle,#header.on .line{
+  stroke: black;
+}
+.lang svg{
+  
+}
 .language{
 
+  height: 0;
+  transition: all.3s;
+  overflow: hidden;
+  position: absolute;
 }
-.language ul{
+.language.on2{
+  height: 120px;
+  width: 100px;
+  top: 50px;
+}
 
-}
-.language ul li{
-    
-  display: none;
-}
-.language ul span .ham{
-  
-}
+
+
 
 
 
