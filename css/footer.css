@@ -1,0 +1,77 @@
+#footer{
+
+  border-top: 1px solid #ccc;
+}
+.f_box{
+    
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 45px;
+  padding-top: 50px;
+}
+.f_box2{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding-bottom: 45px;
+  }
+.member{
+
+  display: flex;
+  width: 600px;
+}
+.member .ml{
+
+}
+.member .ml a{
+
+  font-size: 16px;
+  padding-right: 30px;
+  line-height: 2;
+}
+.cp{
+
+  display: flex;
+  width: 600px;
+  justify-content: end;
+}
+.cp .cl{
+
+}
+.cp .cl a{
+
+  font-size: 16px;
+  line-height: 2;
+  padding-left: 50px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.cp .cl a svg{
+  
+}
+.sns{
+
+  display: flex;
+  order: 2;
+}
+.sns .sl{
+
+}
+.sns .sl a{
+
+  padding: 0 2px;
+}
+.sns .sl a svg{
+
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 50%;
+  padding: 10px;
+}
+#footer p{
+
+  font-size: 14px;
+  color: #919197;
+  line-height: 4;
+}

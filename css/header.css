@@ -1,21 +1,42 @@
 #header{
 
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+#header:before{
+  content: "";
+  background: white;
+  height:0;
   position: absolute;
   width: 100%;
+  transition: all.3s;
 }
+#header .on::before{
+  height: 310px;
+}
+
+.on{
+  height: 310px;
+  color: black;
+  
+}
+
 #header header{
 
   display: flex;
   margin-top: 20px;
+  position: absolute;
+  left: calc((100% - 1200px) / 2);
+  z-index: 1;
 }
 
 #header header h1 {
-  background-image:url(../img/logo.png);
-  background-size: cover;
-  width: 145px;
-  font-size: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   height: 40px;
-  background-position: center;
+  width: 140px;
  }
 
 #header header nav{
@@ -37,20 +58,36 @@
 #header header nav .menu li a{
 
   padding: 0px 40px;
-  color: white;
+  color: inherit;
+}
+.sub{
+
+  height: 0;
+  transition: all.3s;
+  overflow: hidden;
+  position: absolute;
+}
+
+.sub li{
+
+  line-height: 2;
+}
+.sub li a{
+  
+  color: rgb(87, 87, 91);
 }
     
-#header header nav .language{
+.language{
 
 }
-#header header nav .language ul{
+.language ul{
 
 }
-#header header nav .language ul li{
+.language ul li{
     
   display: none;
 }
-#header header nav .language ul span .ham{
+.language ul span .ham{
   
 }
 
