@@ -24,8 +24,8 @@
   display: flex;
   margin-top: 20px;
   position: absolute;
-  left: calc((100% - 1200px) / 2);
-  z-index: 1;
+  width: 1840px;
+  left: calc((100% - 1903px) / 2);
 }
 
 #header header h1 {
@@ -55,12 +55,20 @@
   display: flex;
   width: 100%;
 }
-#header header nav .menu li{
+#header .menu li{
 
 }
 #header header nav .menu li a{
 
-  padding: 0px 40px;
+  padding: 0px 45px;
+}
+#header.on header nav .menu li a svg{
+  fill: black;
+  stroke: black;
+}
+#header.on header nav .menu li a svg .line{
+  fill: black;
+  stroke: black;
 }
 .sub{
 

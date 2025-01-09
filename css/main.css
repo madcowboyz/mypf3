@@ -158,81 +158,40 @@
   font-weight: 500;
   color: rgb(87, 87, 91);
 }
-#main_3 .content{
 
-}
-.content .banner{
+.banner{
   
   display: flex;
   padding-top: 80px;
-  gap: 35px;
   padding-bottom: 150px;
+  justify-content: space-between;
 }
-.content .banner .b_box1{
 
-}
-.content .banner .b_box1:hover{
-  
-  transform: translateY(-5%);
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-.content .banner .b_box2:hover{
-transform: translateY(-5%);
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-.content .banner .b_box3:hover{
-transform: translateY(-5%);
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-#main_3 .content .banner .b1{
-  background-image:url(../img/banner01.jpeg);
-  height: 238px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.b{
+
   width: 376px;
+}
+.b img{
+  width: 100%;
+  height: 238px;
   border-radius: 10px;
 }
-#main_3 .content .banner .b2{
-  background-image:url(../img/banner02.jpeg);
-  height: 238px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 376px;
-  border-radius: 10px;
-}
-#main_3 .content .banner .b3{
-  background-image:url(../img/banner03.jpeg);
-  height: 238px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 376px;
-  border-radius: 10px;
-}
-.content .b_t{
+.b span a{
 
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  font-weight: 700;
+  color: rgb(121 121 129);
 }
-.content .b_t li{
+.b strong a{
 
-  width: calc(100% / 3);
-}
-.b_t h3 a{
-  
-  color: #797981;
-  line-height: 2.5;
-}
-.b_t span a{
-
-  overflow: hidden;
   font-size: 18px;
   font-weight: 700;
-  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
-  word-break: break-all;
   width: 376px;
   display: block;
+  white-space: nowrap;
 }
 
