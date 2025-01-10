@@ -24,7 +24,7 @@
   display: flex;
   margin-top: 20px;
   position: absolute;
-  width: 1840px;
+  width: 1850px;
   left: calc((100% - 1903px) / 2);
 }
 
@@ -61,13 +61,45 @@
 #header header nav .menu li a{
 
   padding: 0px 45px;
+  position: relative;
+  
 }
-#header.on header nav .menu li a svg{
-  fill: black;
-  stroke: black;
+#header .dot{
+  display: none;
+  right: 35px;
+  top: -3px;
 }
+#header.on .dot{
+  display: block;
+  
+}
+.menu > li i{
+  display: inline-block;
+  width: 6px;
+  height: 7px;
+  text-indent: -9999px;
+  position: absolute;
+  top: -3px;
+  right: 30px;
+}
+.menu > li a:hover i{
+  background-image: url(../img/dot.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  
+
+}
+
+
+
+#header header nav .menu li a svg{
+  position: absolute;
+}
+
+
 #header.on header nav .menu li a svg .line{
-  fill: black;
+  
   stroke: black;
 }
 .sub{
@@ -94,6 +126,8 @@
 .earth{
   align-items: center;
   display: flex;
+  
+  position: relative;
 }
 
 .earth .lang{
@@ -114,17 +148,19 @@
   background: white;
   position: absolute;
   top: 50px;
-  height: 144px;
+  height: 156px;
   color: black;
   display: none;
   width: 100px;
   border-radius: 5px;
+  right: 0px;
 }
 .language li{
 
 }
 .language li:hover{
   background:#ccc;
+  border-radius: 5px;
 }
 .language li a{
   
